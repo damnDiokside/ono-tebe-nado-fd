@@ -1,1 +1,1 @@
-https://github.com/damnDiokside/PROJECT67
+https://github.com/damnDiokside/ono-tebe-nado-fd/actions
