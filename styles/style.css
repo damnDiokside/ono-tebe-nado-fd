@@ -20,12 +20,17 @@
   list-style: none;
 }
 
+.header__link {
+  text-underline-offset: 4px;
+}
+
 .header__link_active {
   text-decoration: none;
 }
 
 .header__logo {
   display: block;
+  justify-self: center;
   width: 148px;
 }
 
@@ -37,15 +42,19 @@
 .address {
   display: flex;
   flex-direction: column;
-  justify-self: end;
   width: 240px;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
 }
 
-.address a {
+.header__address {
+  justify-self: end;
+}
+
+.address__link {
   width: fit-content;
+  text-underline-offset: 4px;
 }
 
 .overlay {
@@ -159,6 +168,7 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  justify-content: space-between;
   min-height: 563px;
   padding: 48px 40px;
   color: #fff;
@@ -193,10 +203,10 @@
 }
 
 .card__text {
-  margin-top: auto;
   font-size: 20px;
   line-height: 24px;
 }
+
 
 .lots__look-more-link {
   display: block;
@@ -204,6 +214,7 @@
   margin: 30px 0 0 40px;
   font-size: 20px;
   line-height: 24px;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -265,6 +276,10 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+}
+
+.footer__menu-link {
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
