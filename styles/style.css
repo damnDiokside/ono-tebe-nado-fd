@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 94px;
+  padding: 92px 50px 96px;
 }
 
 .header__links-list {
@@ -25,6 +25,7 @@
 }
 
 .header__logo {
+  display: block;
   width: 148px;
 }
 
@@ -61,7 +62,7 @@
 
 .cover {
   min-height: 757px;
-  padding: 163px 50px 50px;
+  padding: 165px 50px 50px;
   color: #fff;
   background-image: url('../images/cover.jpg');
   background-position: center;
@@ -105,7 +106,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 133px;
+  margin-top: 135px;
 }
 
 .cover__description-text {
@@ -118,7 +119,7 @@
 
 .bet-button {
   border: 1px solid currentColor;
-  padding: 12px 34px;
+  padding: 11px 31px;
   color: #fff;
   font-size: 22px;
   line-height: 28px;
@@ -163,6 +164,7 @@
   color: #fff;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card_type_film {
@@ -273,6 +275,10 @@
   display: flex;
   justify-self: end;
   gap: 48px;
+}
+
+.footer__social-link {
+  display: block;
 }
 
 .footer__social-icon {
