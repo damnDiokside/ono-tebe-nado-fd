@@ -125,11 +125,8 @@
 }
 
 .cover__description-text {
-  position: relative;
-  top: 1px;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 0.1px;
   word-spacing: 18px;
   text-transform: uppercase;
 }
